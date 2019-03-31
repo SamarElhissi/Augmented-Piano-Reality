@@ -1,0 +1,15 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+         <item android:id="@+id/midi"
+         android:icon="@drawable/mic"
+          android:title="MIDI"
+          android:showAsAction="always"
+          
+          />
+    <item android:id="@+id/mic"
+          android:icon="@drawable/mic"
+          android:title="MIC" 
+           android:showAsAction="always"/>
+    
+    </menu>

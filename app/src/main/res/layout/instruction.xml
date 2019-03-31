@@ -1,0 +1,192 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/instView"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:background="@drawable/image"
+    >
+
+<RelativeLayout
+    android:id="@+id/instrLayout"
+    android:layout_width="match_parent"
+    android:layout_height="478dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Instruction" >
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Instructions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/drawing"
+        android:textStyle="bold"
+         android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t1"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="1.	The drawing should have 14 white keys, and 10 black keys, placed as shown."
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+         android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t3"
+        android:layout_below="@+id/t3"
+        android:src="@drawable/piano" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/im1"
+        android:layout_below="@+id/im1"
+        android:layout_marginTop="19dp"
+        android:text="2.	The drawing should be done with thick dark marker."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+    
+     <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/place"
+        android:textStyle="bold"
+         android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t2"
+        android:layout_below="@+id/t5"
+        android:layout_marginTop="5dp"
+        android:text="1.	Tape the piano to the surface, so it doesn't move while playing, as shown below:"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+         android:textStyle="bold"/>
+ <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t6"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/place2"
+         android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t3"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="5dp"
+        android:text="1.	Press “Start Playing” on the main screen."
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+         android:textStyle="bold"/>
+
+ <TextView
+     android:id="@+id/textView10"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/t3"
+     android:layout_below="@+id/textView9"
+     android:layout_marginTop="14dp"
+     android:text="2.	Place the phone in an angel looking towards the piano drawing." 
+      android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceSmall" />
+  <TextView
+     android:id="@+id/textView11"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/t3"
+     android:layout_below="@+id/textView10"
+     android:layout_marginTop="14dp"
+     android:text="3.	 Make sure all of the borders are within the view of the camera, this is what the screen should look like:" 
+      android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceSmall" />
+  
+  <ImageView
+      android:id="@+id/im3"
+      android:layout_width="wrap_content"
+      android:layout_height="140dp"
+      android:layout_alignLeft="@+id/t1"
+      android:layout_below="@+id/textView11"
+      android:background="@null"
+      android:src="@drawable/p6" />
+<TextView
+     android:id="@+id/textView12"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/t3"
+     android:layout_below="@+id/im3"
+     android:layout_marginTop="14dp"
+     android:text="4.	 Click on the screen until this message appear: Detection Success" 
+      android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceSmall" />
+  
+  <TextView
+     android:id="@+id/textView13"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/t3"
+     android:layout_below="@+id/textView12"
+     android:layout_marginTop="14dp"
+     android:text="5.	 Enjoy playing on the paper piano!" 
+      android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceSmall" />
+  
+  <ImageView
+      android:id="@+id/im2"
+      android:layout_width="wrap_content"
+      android:layout_height="140dp"
+      android:layout_alignLeft="@+id/t1"
+      android:layout_below="@+id/t4"
+      android:background="@null"
+      android:src="@drawable/table" />
+
+  <TextView
+      android:id="@+id/t6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/t4"
+      android:layout_below="@+id/im2"
+      android:layout_marginTop="18dp"
+      android:text="2.	Clear the surface in order to allow enough space to place the phone."
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

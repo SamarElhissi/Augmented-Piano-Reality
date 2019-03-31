@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tempLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Template" 
+     android:background="@drawable/image">
+       <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Downloads"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+        <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="If you prefer to download and print a keyboard, you may download one from this link:"
+        android:textStyle="bold"
+         android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="https://mega.co.nz/#!21IBwSDI!ZYIesX1UFgOiRg63V5JvS7TaOLDEYGRMrS82tCD8Twg"
+        android:textStyle="bold"
+        android:autoLink="web"
+        android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>

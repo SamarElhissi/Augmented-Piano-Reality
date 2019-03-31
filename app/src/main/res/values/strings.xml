@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pianoProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawing">•	 Drawing the piano:  </string>
+    <string name="place">•	 Placing the piano on the surface:  </string>
+     <string name="place2">•	 Placing the phone on the surface:  </string>
+
+</resources>
